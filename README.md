@@ -1,45 +1,14 @@
-# Getting Started with Serverless Stack (SST)
+# Welcome to your CDK TypeScript project!
 
-This project was bootstrapped with [Create Serverless Stack](https://docs.serverless-stack.com/packages/create-serverless-stack).
+This is a blank project for TypeScript development with CDK.
 
-Start by installing the dependencies.
+The `cdk.json` file tells the CDK Toolkit how to execute your app.
 
-```bash
-$ npm install
-```
+## Useful commands
 
-## Commands
-
-### `npm run start`
-
-Starts the local Lambda development environment.
-
-### `npm run build`
-
-Build your app and synthesize your stacks.
-
-Generates a `.build/` directory with the compiled files and a `.build/cdk.out/` directory with the synthesized CloudFormation stacks.
-
-### `npm run deploy [stack]`
-
-Deploy all your stacks to AWS. Or optionally deploy a specific stack.
-
-### `npm run remove [stack]`
-
-Remove all your stacks and all of their resources from AWS. Or optionally remove a specific stack.
-
-### `npm run test`
-
-Runs your tests using Jest. Takes all the [Jest CLI options](https://jestjs.io/docs/en/cli).
-
-## Documentation
-
-Learn more about the Serverless Stack.
-
-- [Docs](https://docs.serverless-stack.com)
-- [@serverless-stack/cli](https://docs.serverless-stack.com/packages/cli)
-- [@serverless-stack/resources](https://docs.serverless-stack.com/packages/resources)
-
-## Community
-
-[Follow us on Twitter](https://twitter.com/ServerlessStack) or [post on our forums](https://discourse.serverless-stack.com).
+ * `npm run build`   compile typescript to js
+ * `npm run watch`   watch for changes and compile
+ * `npm run test`    perform the jest unit tests
+ * `cdk deploy`      deploy this stack to your default AWS account/region
+ * `cdk diff`        compare deployed stack with current state
+ * `cdk synth`       emits the synthesized CloudFormation template
